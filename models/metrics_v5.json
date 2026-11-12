@@ -1,0 +1,34 @@
+{
+  "V3_historical_test_accuracy": 0.8467741935483871,
+  "V3_validation_accuracy": 0.8655913978494624,
+  "v5_validation_accuracy": 0.9018817204301075,
+  "v5_validation_correct": 671,
+  "baseline_validation_correct": 644,
+  "inner_training_comparison": [
+    {
+      "method": "SVM_RBF",
+      "inner_accuracy": 0.9102702702702703,
+      "inner_macro_f1": 0.9070754490540529
+    },
+    {
+      "method": "KNN_Cosine",
+      "inner_accuracy": 0.7978378378378378,
+      "inner_macro_f1": 0.7910827425468473
+    }
+  ],
+  "classifier_method": "SVM_RBF",
+  "decision": "V3_50_specialist_50",
+  "accepted": true,
+  "test_if_run": {
+    "accuracy": 0.8830645161290323,
+    "macro_f1": 0.8824122651119615,
+    "correct": 657,
+    "samples": 744,
+    "status": "exploratory_reused_test"
+  },
+  "limitations": [
+    "same image-level split, signer identities are not disjoint",
+    "existing validation/test were reused in prior projects; report as exploratory",
+    "a new person-disjoint set is necessary for trustworthy generalization"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "mode": "V3_50_specialist_50",
+  "accepted_on_validation": true,
+  "class_count": 31,
+  "image_sizes": [
+    [
+      160,
+      160
+    ],
+    [
+      192,
+      192
+    ]
+  ],
+  "reference_v3_weights": [
+    0.5,
+    0.5
+  ],
+  "input": "RGB 0..255, resize_with_pad; CNN internal preprocessing",
+  "warning": "score is not a guarantee for unknown people; probability estimates can be imperfect"
+}

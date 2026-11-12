@@ -1,0 +1,8 @@
+# Python 3.11 recommended. The saved PCA/SVM was trained with scikit-learn 1.6.1.
+tensorflow>=2.20,<2.22
+keras>=3.13,<4
+numpy>=1.26,<3
+scikit-learn==1.6.1
+joblib>=1.4,<2
+Pillow>=10,<13
+gradio>=6.0,<7
